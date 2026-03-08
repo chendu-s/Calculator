@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <h1>Simple Calculator</h1>
+    <form class="calculator">
+        <div class="formgroup">
+           <input type="text">
+        </div>
+        <div class="formgroup">
+            <button type="button" onclick="Addvalue('%')">%</button>
+            <button  type="button" onclick="clearval()"> C</button>
+            <button  type="button" onclick="del()">DEL</button>
+            <button  type="button" onclick="Addvalue('/')">/</button>
+        </div>
+        <div class="formgroup">
+            <button  type="button" onclick="Addvalue('1')">1</button>
+            <button  type="button" onclick="Addvalue('2')">2</button>
+            <button  type="button" onclick="Addvalue('3')">3</button>
+            <button  type="button" onclick="Addvalue('+')">+</button>
+        </div>
+        <div class="formgroup">
+            <button  type="button" onclick="Addvalue('4')">4</button>
+            <button  type="button" onclick="Addvalue('5')">5</button>
+            <button  type="button"  onclick="Addvalue('6')">6</button>
+            <button  type="button" onclick="Addvalue('-')">-</button>
+        </div>
+        <div class="formgroup">
+            <button  type="button" onclick="Addvalue('7')">7</button>
+            <button  type="button" onclick="Addvalue('8')">8</button>
+            <button  type="button"  onclick="Addvalue('9')">9</button>
+            <button  type="button" onclick="Addvalue('*')">*</button>
+        </div>
+         <div class="formgroup">
+            <button  type="button"  onclick="Addvalue('00')">00</button>
+            <button  type="button" onclick="Addvalue('0')">0</button>
+            <button  type="button"  onclick="Addvalue('.')">.</button>
+            <button  type="button" class="equal" onclick="equal()">=</button>
+        </div>
+
+
+
+
+    </form>
+
+
+
+
+    <script src="calculator.js"></script>
+</body>
+
+</html>
