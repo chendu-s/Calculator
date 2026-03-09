@@ -61,3 +61,9 @@ h1{
 .calculator>.formgroup>.equal:hover{
     background-color: rgb(2, 2, 235);
 }
+@media (max-width:600px){
+    .calculator{
+        width: 90%;
+        font-size: 18px;
+    }
+}
